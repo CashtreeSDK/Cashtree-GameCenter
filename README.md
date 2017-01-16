@@ -3,6 +3,16 @@
 - *Last updated : 2016-12-20*
 - *Version : 1.0*
 
+## Inserting SDK
+
+### Importing SDK into Android Projects
+
+cashtreegame.jar file and add the file to libs directory. When using Android Studio, add jar files to library.
+
+### Adding Dependencies
+
+No other library is required to use the SDK.
+
 ## Function Integration
 ### Init
 ```java
@@ -28,7 +38,7 @@ import com.vitiglobal.cashtree.sdk.CashtreeGameCenter;
  */
 
 ...
-CashtreeGameCenter.TrackEvent( CashtreeGameCenter.Events type, String... values ); // values는 최대 5개까지 전달할 수 있습니다
+CashtreeGameCenter.TrackEvent( CashtreeGameCenter.Events type, String... values ); // *values* can pass up to 5 arguments.
 ...
 ```
 
@@ -37,7 +47,7 @@ CashtreeGameCenter.TrackEvent( CashtreeGameCenter.Events type, String... values 
 import com.vitiglobal.cashtree.sdk.CashtreeGameCenter;
 
 ...
-CashtreeGameCenter.TrackCustomEvent( String eventName, String... values ); // values는 최대 5개까지 전달할 수 있습니다
+CashtreeGameCenter.TrackCustomEvent( String eventName, String... values ); // *values* can pass up to 5 arguments.
 ...
 ```
 
