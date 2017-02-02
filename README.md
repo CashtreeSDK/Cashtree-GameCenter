@@ -1,6 +1,6 @@
 # Cashtree Game Center SDK
 
-- *Last updated : 2017-02-01*
+- *Last updated : 2017-02-02*
 - *Version : 1.0.0*
 - Tech Contact : rnd@cashtree.id
 - Sales Contact : sales@cashtree.id
@@ -65,6 +65,6 @@ import com.vitiglobal.cashtree.sdk.CashtreeGameCenter;
  */
 
 ...
-CashtreeGameCenter.GameResult( CashtreeGameCenter.GameResult result );
+CashtreeGameCenter.GameResult( CashtreeGameCenter.GameResult result, String... values ); // *values* can pass up to 5 arguments.
 ...
 ```
