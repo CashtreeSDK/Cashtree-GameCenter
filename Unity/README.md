@@ -33,7 +33,7 @@ Add the prefab located at `Assets/Prefabs/Cashtree.prefab` to the first scene.
 
 Edit the parameters of the Cashtree script in the `Inspector menu` of the added prefab.
 
-Replace {PARTNER_TEST1}, {PARTNER_SECRET1} with your actual "Partner Key" and "Partner Secret". If you don't know about these things, please send to email this address rnd@cashtree.id .
+Replace {Your Partner Key}, {Your Partner Secret} with your actual "Partner Key" and "Partner Secret". If you don't know about these things, please send to email this address rnd@cashtree.id .
 
 ----
 
@@ -43,7 +43,7 @@ Replace {PARTNER_TEST1}, {PARTNER_SECRET1} with your actual "Partner Key" and "P
 using com.vitiglobal.cashtree.sdk;
 
 ...
-Cashtree.Init ("PARTNER_TEST1", "PARTNER_SECRET1");
+Cashtree.Init ("{Your Partnet Key}", "{Your Partnet Secret}");
 ...
 ```
 
