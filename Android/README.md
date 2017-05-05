@@ -27,7 +27,7 @@ In the Package Explorer open the ```AndroidManifest.xml``` of your Android proje
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
-###Adding Broadcast receiver
+### Adding Broadcast receiver
 If you are **not using your own broadcast receiver** to receive ```INSTALL_REFERRER``` intent, add the following ```receiver``` tag inside the ```application``` tag in your ```AndroidManifest.xml```.
 ```xml
 <receiver
