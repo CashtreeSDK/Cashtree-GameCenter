@@ -22,9 +22,11 @@ dependencies {
 ```
 
 ### Adding Permission
-In the Package Explorer open the ```AndroidManifest.xml``` of your Android project. Add the ```uses-permission``` tag for ```INTERNET``` if it's not present already.
+In the Package Explorer open the ```AndroidManifest.xml``` of your Android project. Add the ```uses-permission``` tag for ```INTERNET```, ```READ_PHONE_STATE``` and ```GET_ACCOUNTS``` if it's not present already.
 ```xml
-<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<uses-permission android:name="android.permission.GET_ACCOUNTS" />
 ```
 
 ### Adding Broadcast receiver
