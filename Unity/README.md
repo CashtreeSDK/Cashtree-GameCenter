@@ -1,7 +1,7 @@
 # Cashtree Game Center Unity SDK
 
-- *Last updated : 2017-05-05*
-- *Version : 1.1.0*
+- *Last updated : 2017-06-06*
+- *Version : 1.1.1*
 - Tech Contact : rnd@cashtree.id
 - Sales Contact : sales@cashtree.id
 - http://www.cashtree.id/
@@ -11,7 +11,7 @@
   * `Cashtree.cs`
   * Android/
     * `CashtreeAndroid.cs`
-    * `cashtreegame_v1.1.0.jar`
+    * `cashtreegame_v1.1.1.jar`
     * `okhttp-3.7.0.jar`
     * `okio-1.12.0.jar`
     * `CashtreeSampleAndroidManifest.xml`

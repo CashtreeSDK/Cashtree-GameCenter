@@ -1,7 +1,7 @@
 # Cashtree Game Center Android SDK
 
-- *Last updated : 2017-05-05*
-- *Version : 1.1.0*
+- *Last updated : 2017-06-06*
+- *Version : 1.1.1*
 - Tech Contact : rnd@cashtree.id
 - Sales Contact : sales@cashtree.id
 - http://www.cashtree.id/
@@ -9,13 +9,13 @@
 ## Inserting SDK
 
 ### Importing SDK into Android Projects
-cashtreegame_v1.1.0.jar file and add the file to libs directory. When using Android Studio, add jar files to library.
+cashtreegame_v1.1.1.jar file and add the file to libs directory. When using Android Studio, add jar files to library.
 
 ### Adding Dependencies
 Add this to your application’s build.gradle:
 ```java
 dependencies {
-  compile files('libs/cashtreegame_v1.1.0.jar')
+  compile files('libs/cashtreegame_v1.1.1.jar')
   compile files('libs/okhttp-3.7.0.jar')
   compile files('libs/okio-1.12.0.jar')
 }
